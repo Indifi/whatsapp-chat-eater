@@ -1,0 +1,20 @@
+{
+    "name": "Whatsapp Chat Reader!",
+    "version": "1.0",
+    "author": "Sushen Suri",
+    "description": "Reads whatsapp chats!",
+    "permissions": ["activeTab", "declarativeContent"],
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "page_action": {
+        "default_popup": "html/popup.html",
+        "default_icon": {
+            "128": "images/indifi.png"
+        }
+    },
+    "icons": {
+        "128": "images/indifi.png"
+    },
+    "manifest_version": 2
+}
